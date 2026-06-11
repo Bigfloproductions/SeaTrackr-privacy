@@ -7,7 +7,6 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
       margin: 0;
       padding: 0;
 
@@ -19,7 +18,28 @@
       background-attachment: fixed;
     }
 
+    /* 🔷 Top navigation bar */
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Page content */
     .content {
+      text-align: center;
       padding: 50px;
       background-color: rgba(255, 255, 255, 0.9);
       min-height: 100vh;
@@ -29,33 +49,21 @@
       margin-top: 40px;
     }
 
-    .footer {
-      margin-top: 50px;
-      font-size: 14px;
-    }
-
-    a {
-      color: blue;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
   </style>
 
 </head>
 <body>
 
+  <!-- ✅ Top Menu -->
+  <div class="navbar">
+    index.htmlHome</a>
+    privacy.htmlPrivacy</a>
+  </div>
+
+  <!-- ✅ Main Content -->
   <div class="content">
-    <h1>Welcome to My Website</h1>
+    <h1>Welcome to SeaTrackr</h1>
     <p>This is my GitHub Pages site.</p>
-
-    <!-- ✅ CORRECT LINK -->
-    <div class="footer">
-      privacy.htmlPrivacy Policy</a>
-    </div>
-
   </div>
 
 </body>
